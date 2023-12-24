@@ -1,8 +1,5 @@
-import { useEffect, useState } from "react";
-import { getGifs } from "../helpers/getGifs";
-
+import PropTypes from "prop-types";
 export const GifItem = ({ title, url }) => {
-  console.log(title, url);
   return (
     <>
       <div className="card">
@@ -11,4 +8,9 @@ export const GifItem = ({ title, url }) => {
       </div>
     </>
   );
+};
+
+GifItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
 };
