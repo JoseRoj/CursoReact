@@ -6,9 +6,10 @@ import "./index.css";
 //import { SimpleForm } from "./02-useEffect/SimpleForm";
 //import { FormWithCustomHook } from "./02-useEffect/SimpleFormCustomHook";
 //import { MultipleCustomHooks } from "./03-example/MultipleCustomHooks";
-import { FocusScreen } from "./04-useRef/FocusScreen";
+//import { FocusScreen } from "./04-useRef/FocusScreen";
+import { Layout } from "./05-Layout/Layout";
 ReactDOM.createRoot(document.getElementById("root")).render(
   //<React.StrictMode>
-  <FocusScreen />
+  <Layout />
   //</React.StrictMode>
 );
